@@ -1,0 +1,85 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Open+Sans&family=Pacifico&family=Poppins:wght@400;500&family=Work+Sans:wght@300;400;600;700;800;900&display=swap');
+/* Fonts */
+:root {
+    --primary-color: #FF900E ;
+    --primary-hover:  #ea830d;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 20px;
+    
+}
+
+*{ margin: 0;
+  padding: 0;
+}
+
+
+/* Common styles */
+
+
+
+/* Header and Nav syles */
+header {
+      width: 100%;
+     height: 800px;
+     background-color:#FFF4E7 ;
+}
+nav {
+  
+    display: flex;
+    justify-content: space-evenly;
+}
+nav .logo {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top:20px ;
+}
+nav ul {
+    display: flex;
+     gap: 20px;
+     margin-top: 40px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Header Description */
+.header-description .header-title {
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 194px;
+    text-align: center;
+}
+.header-description .header-des-text {
+   text-align: center;
+   margin-top: 20px;
+}
+.header-description .primary-btn {
+    display: block;
+    margin: 30px auto;
+    width: 180px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
+    background-color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.header-description .primary-btn:hover {
+ background-color: var(--primary-hover);
+}
